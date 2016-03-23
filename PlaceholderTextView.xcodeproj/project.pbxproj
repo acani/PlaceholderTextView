@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D2AC12311CA2CB1200E0DE99 /* PlaceholderTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = D2AC12301CA2CB1200E0DE99 /* PlaceholderTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D2AC12381CA2CB1200E0DE99 /* PlaceholderTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AC122D1CA2CB1200E0DE99 /* PlaceholderTextView.framework */; };
 		D2AC123D1CA2CB1200E0DE99 /* PlaceholderTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC123C1CA2CB1200E0DE99 /* PlaceholderTextViewTests.swift */; };
+		D2AC12481CA2CC4300E0DE99 /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC12471CA2CC4300E0DE99 /* PlaceholderTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +24,12 @@
 
 /* Begin PBXFileReference section */
 		D2AC122D1CA2CB1200E0DE99 /* PlaceholderTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PlaceholderTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2AC12301CA2CB1200E0DE99 /* PlaceholderTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaceholderTextView.h; sourceTree = "<group>"; };
 		D2AC12321CA2CB1200E0DE99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2AC12371CA2CB1200E0DE99 /* PlaceholderTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaceholderTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AC123C1CA2CB1200E0DE99 /* PlaceholderTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTextViewTests.swift; sourceTree = "<group>"; };
 		D2AC123E1CA2CB1200E0DE99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2AC12471CA2CC4300E0DE99 /* PlaceholderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
+		D2AC12491CA2CE8200E0DE99 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 				D2AC122F1CA2CB1200E0DE99 /* PlaceholderTextView */,
 				D2AC123B1CA2CB1200E0DE99 /* PlaceholderTextViewTests */,
 				D2AC122E1CA2CB1200E0DE99 /* Products */,
+				D2AC12491CA2CE8200E0DE99 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,7 +73,7 @@
 		D2AC122F1CA2CB1200E0DE99 /* PlaceholderTextView */ = {
 			isa = PBXGroup;
 			children = (
-				D2AC12301CA2CB1200E0DE99 /* PlaceholderTextView.h */,
+				D2AC12471CA2CC4300E0DE99 /* PlaceholderTextView.swift */,
 				D2AC12321CA2CB1200E0DE99 /* Info.plist */,
 			);
 			path = PlaceholderTextView;
@@ -93,7 +95,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2AC12311CA2CB1200E0DE99 /* PlaceholderTextView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2AC12481CA2CC4300E0DE99 /* PlaceholderTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +378,7 @@
 				D2AC12431CA2CB1200E0DE99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2AC12441CA2CB1200E0DE99 /* Build configuration list for PBXNativeTarget "PlaceholderTextViewTests" */ = {
 			isa = XCConfigurationList;
@@ -384,6 +387,7 @@
 				D2AC12461CA2CB1200E0DE99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
